@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Paragoz.Model.Cuzdan" Title="Cuzdan">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="cuzdanAdi" Placeholder="Cüzdan Adınızı Girin"></Entry>
+            <Entry x:Name="miktar" Placeholder="Başlangıç Miktarınızı Girin" Keyboard="Numeric"></Entry>
+            <Button Text="Ekle" Clicked="Button_Clicked"></Button>
+            <Label Text="..." x:Name="lblsonuc"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

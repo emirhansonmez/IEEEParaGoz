@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Paragoz.Model.Giris" Title="Giris">
+    <ContentPage.Content>
+        <StackLayout Padding="50,50,50,50">
+            <StackLayout Orientation="Horizontal">
+                <Entry x:Name="kullaniciAdi" Placeholder="Kullanıcı Adı"></Entry>
+                <Entry x:Name="password" Placeholder="Şifre Giriniz" IsPassword="True"></Entry>
+            </StackLayout>
+           
+            <Button Text="Giriş Yap" BackgroundColor="DarkGreen" TextColor="White" Clicked="Button_Clicked"></Button>
+            <Label Text=" Hesabın Yok mu ?"></Label>
+            <Button Text="Yeni Hesap Oluştur" BackgroundColor="Red" TextColor="White"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

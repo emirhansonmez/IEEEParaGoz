@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Paragoz.Model.Menu"
+             Title="Menu">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label  x:Name="kategori" Text="Kategoriler"
+                VerticalOptions="Start" 
+                HorizontalOptions="Start" />
+            <Label x:Name="harcama" Text="Harcamalar"
+                VerticalOptions="Start" 
+                HorizontalOptions="Start" />
+            <Label x:Name="cuzdan" Text="Cüzdan"
+                VerticalOptions="Start" 
+                HorizontalOptions="Start" />
+            <Label x:Name="gelir" Text="Gelir"
+                VerticalOptions="Start" 
+                HorizontalOptions="Start" />
+            <Label x:Name="ayarlar" Text="Ayarlar"
+                VerticalOptions="StartAndExpand" 
+                HorizontalOptions="StartAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
